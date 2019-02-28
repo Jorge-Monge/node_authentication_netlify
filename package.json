@@ -1,0 +1,20 @@
+{
+  "name": "node_authentication_api",
+  "version": "1.0.0",
+  "description": "JWT Example",
+  "main": "app.js",
+  "scripts": {
+    "lambda-build": "netlify-lambda build functions",
+    "lambda-serve": "netlify-lambda serve functions",
+    "test": "node functions/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "netlify-lambda": "^1.4.2",
+    "serverless-http": "^1.9.1"
+  }
+}
